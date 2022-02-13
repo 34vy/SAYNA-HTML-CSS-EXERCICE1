@@ -1,0 +1,10 @@
+git init #Init un projet git sur son pc
+git add . #Selection des fichiers à envoyer
+git commit -m "New:Premier commit by Voahangy"#création de package avant envoi
+git branch -M main #création de la branch principal 'Main'
+git remote add origin https://github.com/34vy/exercice-sayna-html-css.git #Link entre le code sur le pc et les serveurs de GitHub
+git push -u origin main #Envoi du package
+
+git add . #Selection des fichiers à envoyer (. =>Tout)
+git commit -m "..."#création de package avant envoi
+git push #Envoi
